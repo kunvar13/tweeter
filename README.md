@@ -16,3 +16,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screen shots
+
+![Screenshot - Home Page](https://github.com/kunvar13/tweeter/blob/master/docs/Home%20Page.png?raw=true)
+
+![Screenshot - List of tweets](https://github.com/kunvar13/tweeter/blob/master/docs/List%20of%20tweet.png?raw=true)
+
+![Screenshot - Error page](https://github.com/kunvar13/tweeter/blob/master/docs/Error%20when%20more%20then%20140.png?raw=true)
