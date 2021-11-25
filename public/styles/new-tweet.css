@@ -1,3 +1,23 @@
+  .new-tweet-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
 
+  #tweet-text{
+    height: 2em;
+    background: transparent;
+    border-bottom: solid;
+    border: none;
+    outline: none;
+    margin-bottom: .5em;
+    resize: none;
+  }
 
-  textarea#tweet-text{bottom-border: 5px}
+  .char_count {
+    display: flex;
+    justify-content: space-between;
+    font-family: "bungee";
+    align-items: center;
+  }

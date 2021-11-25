@@ -14,19 +14,51 @@ html {
  * Global layout stuff
  */
 
+ @media (min-width: 500px) {
+
 body {
+  display: flex;
+  flex-direction: column;
+
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: "Source Sans Pro";
 }
 
-main {
-  width: 90%;
-  background-color: #f4f1ec;
-  text-align: center;
-  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+.mainheader {
+  display: flex;
+  flex-direction: row;
+}
+
+header{
+  display: flex;
+  width: 50%;
+  margin-top: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  justify-content: center;
+}
+
+.tweetcontainer {
+  width: 50vw;
+}
+
+ }
 
 
 
